@@ -11,7 +11,7 @@ namespace NumberGuesser
         {
             GetAppInfo();
 
-            Console.WriteLine("Welcome to Number Guesser!"); 
+            Console.WriteLine("Welcome to Number Guesser!");
 
             while (true)
             {
@@ -53,8 +53,6 @@ namespace NumberGuesser
 
                 //print succes message
                 PrintColorMessage(ConsoleColor.Yellow, "You're correct!");
-
-                AskToPlayAgain();
 
                 //ask to play again
                 Console.WriteLine("Play again? [Y o N]");
@@ -100,12 +98,6 @@ namespace NumberGuesser
             // resset color
             Console.ResetColor();
         }
-
-        static void AskToPlayAgain()
-        {
-
-        }
-
 
     }
 }
